@@ -24,10 +24,7 @@ function App() {
       body: JSON.stringify(item)
     });
     //render ra man hinh
-    setProducts([
-      ...products,
-      item
-    ]);
+    setProducts([...products, item]);
   }
 
   const removeProduct = async (id) => {
@@ -40,7 +37,7 @@ function App() {
       setProducts(newProducts);
     }
   }
-  
+
   const editProduct = async (product) => {
     await fetch(`http://localhost:3001/products/${product.id}`, {
       method: 'PUT',

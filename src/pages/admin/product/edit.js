@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import { useHistory, Link, useParams } from 'react-router-dom';
 
 const AdminProductEditPage = ({ onEdit }) => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset, formState: { errors } } = useForm();
     let history = useHistory();
     let { id } = useParams();
     const [product, setProduct] = useState({});
@@ -15,6 +15,7 @@ const AdminProductEditPage = ({ onEdit }) => {
                 const response = await fetch(`http://localhost:3001/products/${id}`);
                 const data = await response.json();
                 setProduct(data);
+                reset(data);
             } catch (errors) {
                 console.log(errors)
             }
@@ -46,8 +47,7 @@ const AdminProductEditPage = ({ onEdit }) => {
                         className="form-control"
                         id="product-name"
                         defaultValue={product.name}
-                        {...register('name', { required: true })}
-                    />
+                        {...register('name', { required: true })} />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="product-price" className="form-label">Giá sản phẩm</label>
@@ -56,6 +56,14 @@ const AdminProductEditPage = ({ onEdit }) => {
                         id="product-price"
                         defaultValue={product.price}
                         {...register('price', { required: true })} />
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="product-quantity" className="form-label">Số lượng</label>
+                    <input type="number"
+                        className="form-control"
+                        id="product-quantity"
+                        defaultValue={product.quantity}
+                        {...register('quantity', { required: true })} />
                 </div>
                 <div className="mb-3 form-check">
                     <input type="checkbox"

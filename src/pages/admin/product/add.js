@@ -1,13 +1,18 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { useHistory, Link } from 'react-router-dom';
+import { v4 as uuidv4 } from 'uuid';
 
 const AdminProductAddPage = ({ onAdd }) => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     let history = useHistory();
 
     const onSubmit = (data) => {
-        onAdd(data);
+        const newData = {
+            id: uuidv4(),
+            ...data
+        }
+        onAdd(newData);
         history.push('/admin/product');
 
     }
@@ -37,6 +42,15 @@ const AdminProductAddPage = ({ onAdd }) => {
                         id="product-price"
                         {...register('price', { required: true })} />
                     {errors.price && <div className="form-text text-danger">Bạn bắt buộc phải nhập giá sản phẩm</div>
+                    }
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="product-quantity" className="form-label">Số lượng</label>
+                    <input type="number"
+                        className="form-control"
+                        id="product-quantity"
+                        {...register('quantity', { required: true })} />
+                    {errors.quantity && <div className="form-text text-danger">Bạn bắt buộc phải nhập số lượng sản phẩm</div>
                     }
                 </div>
                 <div className="mb-3 form-check">

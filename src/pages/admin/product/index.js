@@ -34,7 +34,7 @@ const AdminProductPage = (props) => {
                                 <td>{product.quantity}</td>
                                 <th>
                                     <Link to={`/admin/product/${product.id}`} className="btn btn-primary">Edit</Link>
-                                    <button onClick={() => props.onRemove(product. id)} className="btn btn-danger">Xóa</button>
+                                    <button onClick={() => props.onRemove(product.id)} className="btn btn-danger">Xóa</button>
                                 </th>
                             </tr>
                         ))}
