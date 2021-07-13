@@ -50,6 +50,27 @@ const AdminProductEditPage = ({ onEdit }) => {
                         {...register('name', { required: true })} />
                 </div>
                 <div className="mb-3">
+                    <td>
+                        <select className="cbx"
+                            defaultValue={product.type} {...register('type', { required: true })} style={{ witch: "100px", height: "50px" }}>
+                            <option value="">Chọn loại</option>
+                            <option value="Đồ ăn" >Đồ ăn</option>
+                            <option value="Đồ uống">Đồ uống</option>
+
+                        </select>
+                    </td>
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="product-image" className="form-label">Hình sản phẩm</label>
+                    <div><img src={product.image} width='380px' height='300px' border='1px solid dark'></img></div>
+                    <input type="text"
+                        className="form-control"
+                        id="product-image"
+                        defaultValue={product.image}
+                        {...register('image', { required: true })}
+                    />
+                </div>
+                <div className="mb-3">
                     <label htmlFor="product-price" className="form-label">Giá sản phẩm</label>
                     <input type="number"
                         className="form-control"

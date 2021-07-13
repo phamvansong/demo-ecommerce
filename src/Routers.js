@@ -26,7 +26,7 @@ export const Routers = (props) => {
                     </AdminLayout>
                 </Route>
                 <Route>
-                    <WebsiteLayout></WebsiteLayout>
+                    <WebsiteLayout {...props}></WebsiteLayout>
                 </Route>
             </Switch>
         </Router>

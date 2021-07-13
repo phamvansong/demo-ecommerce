@@ -2,136 +2,190 @@
   "products": [
     {
       "id": "1",
-      "name": "Blued",
-      "image": "https://picsum.photos/640/480",
-      "price": "121",
+      "name": "Matcha",
+      "image": "https://scontent.fhan5-5.fna.fbcdn.net/v/t1.6435-9/196595402_943632406419003_4469663749364737813_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=0debeb&_nc_ohc=XfbMZxf4EkcAX9x4gnB&_nc_ht=scontent.fhan5-5.fna&oh=ce256c155d771eb39c71bf3dd6ef773a&oe=60E448B7",
+      "price": 121,
       "status": true,
-      "quantity": 330
+      "quantity": 330,
+      "type": "Đồ ăn"
     },
     {
       "id": "2",
-      "name": "Moisturizer",
-      "image": "https://picsum.photos/640/480",
-      "price": "320",
+      "name": "Sukem socola",
+      "image": "https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/190726079_943631839752393_7217004262069607511_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=KeglntZ0WeAAX9oNLF8&_nc_ht=scontent-hkg4-1.xx&oh=d2b47b5a9fedd89f8c7ab5705f19810f&oe=60E5389B",
+      "price": 320,
       "status": true,
-      "quantity": 120
+      "quantity": 120,
+      "type": "Đồ ăn"
     },
     {
       "id": "3",
-      "name": "Face mask",
-      "image": "https://picsum.photos/640/480",
-      "price": "400",
+      "name": "Bông lan trứng muối",
+      "image": "https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/193661552_943630243085886_4485110889604074366_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=EeXlMfteNH0AX9apW_B&_nc_ht=scontent-hkg4-1.xx&oh=19be93998f3a70c72c0eaeb1c3717949&oe=60E56782",
+      "price": 400,
       "status": false,
-      "quantity": 133
+      "quantity": 133,
+      "type": "Đồ ăn"
     },
     {
       "id": "4",
-      "name": "Compact powder",
-      "image": "https://picsum.photos/640/480",
-      "price": "670",
+      "name": "Hồng trà mận sủi bọt",
+      "image": "https://scontent-hkg4-2.xx.fbcdn.net/v/t1.6435-9/192520766_942347256547518_2556637865675365667_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=0debeb&_nc_ohc=RrImpIDbCAkAX8Epuus&tn=2TNFkOZ0GgDHkz-S&_nc_ht=scontent-hkg4-2.xx&oh=ed73d1b6ba75926537233e5abcc64ab9&oe=60E48040",
+      "price": 670,
       "status": true,
-      "quantity": 166
+      "quantity": 166,
+      "type": "Đồ uống"
     },
     {
       "id": "5",
-      "name": "Blusher",
-      "image": "https://picsum.photos/640/480",
-      "price": "312",
-      "status": false,
-      "quantity": 240
+      "name": "Sữa chua cốm non",
+      "image": "https://scontent.fhan5-7.fna.fbcdn.net/v/t1.6435-9/191506730_942346693214241_3479074772120118246_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=lh21pimVfRkAX8ZL7WJ&_nc_ht=scontent.fhan5-7.fna&oh=b6a21bdb310f60f186e0b34067ccd86e&oe=60E5ABD9",
+      "price": 312,
+      "status": true,
+      "quantity": 240,
+      "type": "Đồ uống"
     },
     {
       "id": "6",
-      "name": "Concealer",
-      "image": "https://picsum.photos/640/480",
-      "price": "330",
+      "name": "Sữa chua lùn",
+      "image": "https://scontent.fhan5-4.fna.fbcdn.net/v/t1.6435-9/190432180_942345793214331_4823451428941327577_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=0debeb&_nc_ohc=fOubwS_ZGH4AX-3KKxO&_nc_ht=scontent.fhan5-4.fna&oh=351a841baa0dd859f8809b9bdc4aab09&oe=60E7F7D2",
+      "price": 330,
       "status": true,
-      "quantity": 133
+      "quantity": 133,
+      "type": "Đồ uống"
     },
     {
       "id": "7",
-      "name": "Buff",
-      "image": "https://picsum.photos/640/480",
-      "price": "358",
+      "name": "Sữa chua uống",
+      "image": "https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/191293699_942345189881058_1646792499952458935_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=HpT0-Q2sM7MAX_AZ78z&_nc_ht=scontent-hkg4-1.xx&oh=aebf4671b05fcc527fa24ae39537fe93&oe=60E71FCC",
+      "price": 358,
       "status": false,
-      "quantity": 490
+      "quantity": 490,
+      "type": "Đồ uống"
     },
     {
       "id": "8",
-      "name": "Eyeliner",
-      "image": "https://picsum.photos/640/480",
-      "price": "600",
+      "name": "Trà sữa xoài",
+      "image": "https://scontent-hkg4-2.xx.fbcdn.net/v/t1.6435-9/194918777_942343906547853_1942969504446211972_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=0debeb&_nc_ohc=gJXZBQQauFMAX8MQ_n_&_nc_ht=scontent-hkg4-2.xx&oh=ec1bb3cb61e48b74e4536a35660388cd&oe=60E59A6D",
+      "price": 600,
       "status": true,
-      "quantity": 260
+      "quantity": 260,
+      "type": "Đồ uống"
     },
     {
       "id": "9",
-      "name": "Pencil eyeliner",
-      "image": "https://picsum.photos/640/480",
-      "price": "390",
+      "name": "Bánh phô mai mặn",
+      "image": "https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/190116177_942341866548057_911128058382606112_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=jFoDDa55A_sAX9aLi_B&tn=2TNFkOZ0GgDHkz-S&_nc_ht=scontent-hkg4-1.xx&oh=64883c13cd7e658c7cb0ec7417e6ce44&oe=60E7CD0C",
+      "price": 390,
       "status": true,
-      "quantity": 640
+      "quantity": 640,
+      "type": "Đồ ăn"
     },
     {
       "id": "10",
-      "name": "Yeseliner",
-      "image": "https://picsum.photos/640/480",
-      "price": "381",
+      "name": "Lá nếp đậu xanh",
+      "image": "https://scontent-hkg4-2.xx.fbcdn.net/v/t1.6435-9/188325185_942340896548154_6735637036018405055_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=Rp3lJ5PwHP4AX9BvcnT&tn=2TNFkOZ0GgDHkz-S&_nc_ht=scontent-hkg4-2.xx&oh=f9eff9960ab4d5b3a272f745c6b78e5b&oe=60E74D17",
+      "price": 381,
       "status": true,
-      "quantity": 10
+      "quantity": 10,
+      "type": "Đồ ăn"
     },
     {
       "id": "11",
-      "name": "For Sensitive skin",
-      "image": "https://picsum.photos/640/480",
-      "price": "278",
+      "name": "Bánh bò thốt nốt",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.6435-9/p720x720/191762346_942339429881634_2188620301010404013_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=0debeb&_nc_ohc=Ynn2BViHSRsAX8LRdXg&tn=2TNFkOZ0GgDHkz-S&_nc_ht=scontent.fhan5-6.fna&tp=6&oh=1982b0bd19e00ed774b8028c60af9859&oe=60E61A93",
+      "price": 278,
       "status": true,
-      "quantity": 154
+      "quantity": 154,
+      "type": "Đồ ăn"
     },
     {
       "id": "12",
-      "name": "Bronzer",
-      "image": "https://picsum.photos/640/480",
-      "price": "467",
+      "name": "Bim bim tăm",
+      "image": "https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/p720x720/190263580_939312413517669_5313049101301877530_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=MQAy7-A097gAX-c4uCl&_nc_ht=scontent-hkg4-1.xx&tp=6&oh=21976c193d35e7c259d87edecaf164f0&oe=60E61E5E",
+      "price": 467,
       "status": true,
-      "quantity": 500
+      "quantity": 500,
+      "type": "Đồ ăn"
     },
     {
       "id": "13",
-      "name": "Clog pore",
-      "image": "https://picsum.photos/640/480",
-      "price": "931",
+      "name": "Nước dừa non",
+      "image": "https://scontent.fhan5-7.fna.fbcdn.net/v/t1.6435-0/p600x600/191680919_938710210244556_2142381768931438974_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=BQIDH9Q5gO4AX9D04oZ&_nc_ht=scontent.fhan5-7.fna&tp=6&oh=84aea75f290e4edd2c1623b741cf3d1f&oe=60E430D6",
+      "price": 931,
       "status": true,
-      "quantity": 990
+      "quantity": 990,
+      "type": "Đồ uống"
     },
     {
       "id": "14",
-      "name": "Humidity proof",
-      "image": "https://picsum.photos/640/480",
-      "price": "550",
+      "name": "Bánh trứng",
+      "image": "https://scontent-hkg4-2.xx.fbcdn.net/v/t1.6435-9/188460128_938711320244445_5680008408543638299_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=2dmOe578bVAAX-tiptG&_nc_oc=AQmRw5vr3wimc1A72uV9Tp9preWCfLhGbSqVM3UWX0LkKvLn5NRZiHIkzer2gBxEpY1M5uESq3sLepxvG8ni2MaQ&tn=2TNFkOZ0GgDHkz-S&_nc_ht=scontent-hkg4-2.xx&oh=3ba857b97f19fef38680129534bdfc59&oe=60E4EDF4",
+      "price": 550,
       "status": false,
-      "quantity": 640
+      "quantity": 640,
+      "type": "Đồ ăn"
     },
     {
       "id": "15",
-      "name": "Transfer resistant",
-      "image": "https://picsum.photos/640/480",
-      "price": "600",
+      "name": "Bim bim mực thái",
+      "image": "https://scontent.fhan5-7.fna.fbcdn.net/v/t1.6435-9/187782047_939311236851120_3669716856501724552_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=wfF7vLf7zYkAX9pV0Ef&_nc_ht=scontent.fhan5-7.fna&oh=67e9e175b0e2f5d7b003ab66bfe4b35d&oe=60E6B9FA",
+      "price": 600,
       "status": true,
-      "quantity": 120
+      "quantity": 120,
+      "type": "Đồ ăn"
     },
     {
       "id": "IsnF3wJ",
-      "name": "Sản phẩm 16",
-      "price": "4331",
+      "name": "Bánh mỳ cuộn len",
+      "price": 32000,
       "status": true,
-      "quantity": "12"
+      "quantity": "12",
+      "type": "Đồ ăn",
+      "image": "https://scontent.fhan5-7.fna.fbcdn.net/v/t1.6435-9/191812072_938702730245304_2038666882695009436_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=zYP0y43Ay9cAX-TdELF&_nc_ht=scontent.fhan5-7.fna&oh=723fbf65edd049f90f905d8058a48650&oe=60E70DEA"
     },
     {
       "id": "66399347-5b8b-4d4d-a62d-14fc980d74c5",
-      "name": "Sản phẩm 17",
-      "price": "123",
+      "name": "Nước rau muống",
+      "price": 123,
       "quantity": "32",
+      "status": true,
+      "type": "Đồ uống"
+    },
+    {
+      "id": "14fd839c-1916-4dd8-8942-593f6c044604",
+      "name": "Bánh chao",
+      "image": "https://scontent.fhan5-4.fna.fbcdn.net/v/t1.6435-9/197024859_943640046418239_8331513370663760378_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=0debeb&_nc_ohc=GB9-5U9Qm1UAX_2UQWt&_nc_ht=scontent.fhan5-4.fna&oh=118095d8d751e794761adee8b5841f47&oe=60E61B0F",
+      "price": 123,
+      "quantity": "12",
+      "status": true,
+      "type": "Đồ ăn"
+    },
+    {
+      "id": "cab3cc28-6b85-4a20-9840-d44ad800ff60",
+      "name": "Bánh chao",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.6435-9/189692377_939326846849559_6184499911922823468_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=D9ntBMn0TPAAX99LF4P&_nc_ht=scontent.fhan5-6.fna&oh=8bbba1d058c4003da70e9491aaae23fd&oe=60E6B0F9",
+      "price": 300000,
+      "quantity": "39",
+      "status": true,
+      "type": "Đồ ăn"
+    },
+    {
+      "id": "06d2fc9c-cd76-4c07-91ed-8a4ea74388fc",
+      "type": "Đồ uống",
+      "name": "Nước rau dền",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.6435-9/195158564_943640006418243_1080092714273119583_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=0debeb&_nc_ohc=lx7wCcweX9IAX-U1lP8&_nc_ht=scontent.fhan5-6.fna&oh=6ea7974345a6e5b0613eccd79882f61a&oe=60E699C5",
+      "price": "29999",
+      "quantity": "5",
+      "status": true
+    },
+    {
+      "id": "a4a463da-d713-4e35-a5e5-a6a60b824d6a",
+      "name": "Bánh tráng",
+      "type": "Đồ ăn",
+      "image": "https://scontent.fhan5-4.fna.fbcdn.net/v/t1.6435-9/197024859_943640046418239_8331513370663760378_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=0debeb&_nc_ohc=GB9-5U9Qm1UAX_2UQWt&_nc_ht=scontent.fhan5-4.fna&oh=118095d8d751e794761adee8b5841f47&oe=60E61B0F",
+      "price": "2000000",
+      "quantity": "12",
       "status": true
     }
   ]

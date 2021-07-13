@@ -17,18 +17,7 @@ const AdminNav = () => {
                             <a className="nav-link" href="#">
                                 <span data-feather="shopping-cart" />Products</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                <span data-feather="users" />Customers</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                <span data-feather="bar-chart-2" /> Reports</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                <span data-feather="layers" />Integrations</a>
-                        </li>
+                        
                     </ul>
                     <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                         <span>Saved reports</span>

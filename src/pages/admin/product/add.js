@@ -36,6 +36,24 @@ const AdminProductAddPage = ({ onAdd }) => {
                     }
                 </div>
                 <div className="mb-3">
+                    <td>
+                        <select className="cbx" {...register('type', { required: true })} style={{ witch: "100px", height: "50px" }}>
+                            <option value=""> Chọn loại</option>
+                            <option value="Đồ ăn" >Đồ ăn</option>
+                            <option value="Đồ uống">Đồ uống</option>
+
+                        </select>
+                    </td>
+                </div>
+                <div>
+                    <label htmlFor="product-image" className="form-label">Hình sản phẩm</label>
+                    <input type="link"
+                        className="form-control"
+                        id="product-image"
+                        {...register('image', { required: true })}
+                    />
+                </div>
+                <div className="mb-3">
                     <label htmlFor="product-price" className="form-label">Giá sản phẩm</label>
                     <input type="number"
                         className="form-control"
@@ -64,7 +82,7 @@ const AdminProductAddPage = ({ onAdd }) => {
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
 
-        </div>
+        </div >
     )
 }
 
